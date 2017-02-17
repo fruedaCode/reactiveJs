@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>Reactive app</title>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-8">
+                        <h2>Who to follow</h2>
+                    </div>
+                    <div class="col-xs-4 text-right">
+                        <a href="#" class="refresh btn btn-primary">Refresh</a>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="row suggestions">
+                    <div class="col-md-4 suggestion1">
+                        <div class="img-wrap text-center">
+                            <img class="img-responsive img-rounded" /> 
+                            <button type="button" class="close close1" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h3>
+                                <a href="#" target="_blank" class="username">this will not be displayed</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4 suggestion2">
+                        <div class="img-wrap text-center">
+                            <img class="img-responsive img-rounded" />
+                            <button type="button" class="close close2" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h3 class="">
+                                <a href="#" target="_blank" class="username">this will not be displayed</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4 suggestion3">
+                        <div class="img-wrap text-center">
+                            <img class="img-responsive img-rounded" />
+                            <button type="button" class="close close3" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h3>
+                                <a href="#" target="_blank" class="username">this will not be displayed</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="bower_components/rxjs/dist/rx.all.js"></script>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="js/main.js"></script>
+</html>

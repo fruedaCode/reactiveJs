@@ -1,0 +1,13 @@
+.img-wrap {
+    position: relative;
+    width: 300px;
+    margin: auto;
+}
+.img-wrap .close {
+    position: absolute;
+    top: -15px;
+    left: 290px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 25px;
+}
